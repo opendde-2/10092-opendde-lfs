@@ -8,6 +8,7 @@ git config user.email github-actions@github.com
 git lfs install
 
 git lfs track "*.tar.gz"
+git lfs track "*.tar.xz"
 
 git add .gitattributes
 git add .
