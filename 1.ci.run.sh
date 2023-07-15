@@ -5,6 +5,16 @@ cd $CMD_PATH
 git config user.name github-actions
 git config user.email github-actions@github.com
 
+git lfs install
+
+git lfs track "*.tar.gz"
+
+git add .gitattributes
+git add .
+rm -rf .git/gc.log
+git commit -a -m "$(date)"
+
+
 ./2.2.version.check.sh
 
 ./3.1.wget.source.sh
