@@ -18,6 +18,6 @@ git commit -a -m "$(date)"
 
 ./2.2.version.check.sh
 
-./3.1.wget.source.sh
+#./3.1.wget.source.sh
 
 ./99.git.push.sh
