@@ -15,9 +15,9 @@ git add .
 rm -rf .git/gc.log
 git commit -a -m "$(date)"
 
-
 ./2.2.version.check.sh
-
-#./3.1.wget.source.sh
+# ./2.6.lfs.env.sh
+# ./3.1.wget.source.sh
+# ./4.2.dir.struc.sh
 
 ./99.git.push.sh
