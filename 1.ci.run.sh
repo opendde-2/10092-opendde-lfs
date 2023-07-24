@@ -14,6 +14,7 @@ git add .gitattributes
 git add .
 rm -rf .git/gc.log
 git commit -a -m "$(date)"
+chmod +x *.sh
 
 ./2.2.version.check.sh
 ./2.6.lfs.env.sh
