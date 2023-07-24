@@ -4,8 +4,8 @@ cd $CMD_PATH
 
 . ./2.6.lfs.env.sh
 
-sudo groupadd lfs
-sudo useradd -s /bin/bash -g lfs -m -k /dev/null lfs
+groupadd lfs
+useradd -s /bin/bash -g lfs -m -k /dev/null lfs
 chown -v lfs $LFS/{usr{,/*},lib,var,etc,bin,sbin,tools}
 case $(uname -m) in
     x86_64)
