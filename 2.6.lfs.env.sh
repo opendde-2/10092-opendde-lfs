@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
-cd - && mkdir -p lfs
-export LFS=`dirname ~/lfs`/lfs
+export CMD_PATH=$(cd `dirname $0`; pwd)
+cd $CMD_PATH
+export LFS=$CMD_PATH/lfs
