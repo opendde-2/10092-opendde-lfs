@@ -1,4 +1,8 @@
-#!/bin/bash
+#!/usr/bin/env bash
+export CMD_PATH=$(cd `dirname $0`; pwd)
+cd $CMD_PATH
+
+. ./2.6.lfs.env.sh
 
 sudo groupadd lfs
 sudo useradd -s /bin/bash -g lfs -m -k /dev/null lfs
