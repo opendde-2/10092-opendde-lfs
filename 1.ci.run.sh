@@ -17,6 +17,8 @@ git commit -a -m "$(date)"
 
 ./2.2.version.check.sh
 ./2.6.lfs.env.sh
+ls -al
+cd $CMD_PATH
 # ./3.1.wget.source.sh
 sudo ./4.2.dir.struc.sh
 sudo ./4.3.lfs.user.sh
