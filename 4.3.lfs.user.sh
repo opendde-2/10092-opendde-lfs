@@ -1,7 +1,7 @@
 #!/bin/bash
 
-groupadd lfs
-useradd -s /bin/bash -g lfs -m -k /dev/null lfs
+sudo groupadd lfs
+sudo useradd -s /bin/bash -g lfs -m -k /dev/null lfs
 chown -v lfs $LFS/{usr{,/*},lib,var,etc,bin,sbin,tools}
 case $(uname -m) in
     x86_64)
