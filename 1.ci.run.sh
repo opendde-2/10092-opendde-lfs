@@ -23,4 +23,4 @@ git commit -a -m "$(date)"
 ./4.4.lfs.user.env.sh
 ./4.5.work.core.sh
 
-# ./99.git.push.sh
+./99.git.push.sh
