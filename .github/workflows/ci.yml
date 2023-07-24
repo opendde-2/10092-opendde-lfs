@@ -28,6 +28,7 @@ jobs:
       - name: 1. Install SSH Key
         uses: shimataro/ssh-key-action@v2
         with:
+          user: root
           key: ${{ secrets.MY_SF_SSH }} 
           known_hosts: 'just-a-placeholder-so-we-dont-get-errors'
       - name: 2. build lfs
