@@ -16,11 +16,11 @@ rm -rf .git/gc.log
 git commit -a -m "$(date)"
 
 ./2.2.version.check.sh
-# ./2.6.lfs.env.sh
-# ./3.1.wget.source.sh
-# ./4.2.dir.struc.sh
-# ./4.3.lfs.user.sh
-# ./4.4.lfs.user.env.sh
-# ./4.5.work.core.sh
+./2.6.lfs.env.sh
+./3.1.wget.source.sh
+./4.2.dir.struc.sh
+./4.3.lfs.user.sh
+./4.4.lfs.user.env.sh
+./4.5.work.core.sh
 
 ./99.git.push.sh
