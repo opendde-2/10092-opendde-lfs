@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-mkdir -p /mnt/lfs
-export LFS=/mnt/lfs
+cd - && mkdir -p lfs
+export LFS=`dirname ~/lfs`/lfs
