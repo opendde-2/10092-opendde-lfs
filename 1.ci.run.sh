@@ -46,5 +46,8 @@ ls -al ./lfs
 ./6.16.xz-5.4.1.sh
 ./6.17.binutils-2.40.sh
 ./6.18.GCC-12.2.0.sh
+sudo ./7.2.chown.sh
+sudo ./7.3.kernel.fs.sh
+sudo ./7.5.mkdir.sh
 
 ./99.git.push.sh
