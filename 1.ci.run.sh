@@ -20,9 +20,9 @@ chmod +x *.sh
 . ./2.6.lfs.env.sh
 cd $CMD_PATH
 # ./3.1.wget.source.sh
-sudo ./4.2.dir.struc.sh
-sudo ./4.4.lfs.user.env.sh
-sudo ./4.5.work.core.sh
+./4.2.dir.struc.sh
+./4.4.lfs.user.env.sh
+. ./4.5.work.core.sh
 ls -al ./lfs
 ./5.2.binutils-2.40.sh
 ./5.3.GCC-12.2.0.sh
