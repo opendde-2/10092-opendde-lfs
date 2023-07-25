@@ -23,8 +23,11 @@ cd $CMD_PATH
 # ./3.1.wget.source.sh
 sudo ./4.2.dir.struc.sh
 sudo ./4.3.lfs.user.sh
-./4.5.work.core.sh
+sudo ./4.5.work.core.sh
 sudo ./5.2.binutils-2.40.sh
 sudo ./5.3.GCC-13.1.0.sh
+sudo ./5.4.linux-6.1.11.sh
+sudo ./5.5.glibc-2.37.sh
+sudo ./5.6.GCC-13.1.0Libstdc++.sh
 
 ./99.git.push.sh
