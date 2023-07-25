@@ -1,11 +1,4 @@
 #!/usr/bin/env bash
-export CMD_PATH=$(cd `dirname $0`; pwd)
-cd $CMD_PATH
-
-. ./2.6.lfs.env.sh
-
-su - lfs
-
 cat > ~/.bash_profile << "EOF"
 exec env -i HOME=$HOME TERM=$TERM PS1='\u:\w\$ ' /bin/bash
 EOF
