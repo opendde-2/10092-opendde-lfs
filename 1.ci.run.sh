@@ -25,9 +25,14 @@ sudo ./4.2.dir.struc.sh
 sudo ./4.3.lfs.user.sh
 sudo ./4.5.work.core.sh
 sudo ./5.2.binutils-2.40.sh
-sudo ./5.3.GCC-13.1.0.sh
+sudo ./5.3.GCC-12.2.0.sh
 sudo ./5.4.linux-6.1.11.sh
 sudo ./5.5.glibc-2.37.sh
-sudo ./5.6.GCC-13.1.0Libstdc++.sh
+sudo ./5.6.GCC-12.2.0Libstdc++.sh
+sudo ./6.2.m4-1.4.19.sh
+sudo ./6.3.ncurses-6.4.sh
+sudo ./6.4.bash-5.2.15.sh
+sudo ./6.5.coreutils-9.1.sh
+sudo ./6.6.diffutils-3.9.sh
 
 ./99.git.push.sh
