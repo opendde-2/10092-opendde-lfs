@@ -17,7 +17,7 @@ git commit -a -m "$(date)"
 chmod +x *.sh
 
 ./2.2.version.check.sh
-./2.6.lfs.env.sh
+. ./2.6.lfs.env.sh
 ls -al
 cd $CMD_PATH
 # ./3.1.wget.source.sh
