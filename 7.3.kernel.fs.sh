@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo ----------------------$0----------------------
 export CMD_PATH=$(cd `dirname $0`; pwd)
 cd $CMD_PATH
 export LFS=$CMD_PATH/lfs
