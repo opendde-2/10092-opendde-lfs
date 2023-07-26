@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo ----------------------$0----------------------
 cd $LFS/sources
 tar -xf ncurses-6.4.tar.gz
 cd ncurses-6.4

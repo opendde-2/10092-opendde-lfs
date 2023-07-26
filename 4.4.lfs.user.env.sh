@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo ----------------------$0----------------------
 cat > ~/.bashrc << "EOF"
 set +h
 umask 022

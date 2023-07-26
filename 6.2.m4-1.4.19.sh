@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo ----------------------$0----------------------
 cd $LFS/sources
 tar -xf m4-1.4.19.tar.xz
 cd m4-1.4.19

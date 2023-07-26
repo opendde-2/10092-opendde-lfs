@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo ----------------------$0----------------------
 cd $LFS/sources
 tar -xf tar-1.34.tar.xz
 cd tar-1.34

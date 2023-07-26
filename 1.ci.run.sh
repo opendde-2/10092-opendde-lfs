@@ -18,12 +18,11 @@ chmod +x *.sh
 
 ./2.2.version.check.sh
 . ./2.6.lfs.env.sh
-cd $CMD_PATH
 # ./3.1.wget.source.sh
+ls -al $CMD_PATH/lfs/sources
 ./4.2.dir.struc.sh
 ./4.4.lfs.user.env.sh
 . ./4.5.work.core.sh
-ls -al ./lfs
 ./5.2.binutils-2.40.sh
 ./5.3.GCC-12.2.0.sh
 ./5.4.linux-6.1.11.sh
@@ -46,5 +45,16 @@ ls -al ./lfs
 ./6.16.xz-5.4.1.sh
 ./6.17.binutils-2.40.sh
 ./6.18.GCC-12.2.0.sh
+sudo ./7.2.chown.sh
+sudo ./7.3.kernel.fs.sh
+sudo ./7.5.mkdir.sh
+sudo ./7.6.create.file.sh
+sudo ./7.7.gettext-0.21.1.sh
+sudo ./7.8.bison-3.8.2.sh
+sudo ./7.9.perl-5.36.0.sh
+sudo ./7.10.python-3.11.2.sh
+sudo ./7.11.texinfo-7.0.2.sh
+sudo ./7.12.util-linux-2.38.1.sh
+sudo ./7.13.last.sh
 
 ./99.git.push.sh

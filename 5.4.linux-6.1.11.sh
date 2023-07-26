@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo ----------------------$0----------------------
 cd $LFS/sources
 tar -xf linux-6.1.11.tar.xz
 cd linux-6.1.11

@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo ----------------------$0----------------------
 cd $LFS/sources
 tar -xf gcc-12.2.0.tar.xz
 cd gcc-12.2.0

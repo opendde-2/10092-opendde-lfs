@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo ----------------------$0----------------------
 cd $LFS/sources
 tar -xf bash-5.2.15.tar.gz
 cd bash-5.2.15

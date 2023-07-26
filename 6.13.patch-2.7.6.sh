@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo ----------------------$0----------------------
 cd $LFS/sources
 tar -xf patch-2.7.6.tar.xz
 cd patch-2.7.6

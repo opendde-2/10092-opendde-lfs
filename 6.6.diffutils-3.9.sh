@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo ----------------------$0----------------------
 cd $LFS/sources
 tar -xf diffutils-3.9.tar.xz
 cd diffutils-3.9
