@@ -18,7 +18,8 @@ chmod +x *.sh
 
 ./2.2.version.check.sh
 . ./2.6.lfs.env.sh
-./3.1.wget.source.sh
+# ./3.1.wget.source.sh
+ls -al $CMD_PATH/lfs/sources
 ./4.2.dir.struc.sh
 ./4.4.lfs.user.env.sh
 . ./4.5.work.core.sh
