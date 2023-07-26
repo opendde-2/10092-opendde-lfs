@@ -49,5 +49,7 @@ ls -al ./lfs
 sudo ./7.2.chown.sh
 sudo ./7.3.kernel.fs.sh
 sudo ./7.5.mkdir.sh
+sudo ./7.6.create.file.sh
+sudo ./7.7.gettext-0.21.1.sh
 
 ./99.git.push.sh
