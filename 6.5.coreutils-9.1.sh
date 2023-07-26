@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo ----------------------$0----------------------
 cd $LFS/sources
 tar -xf coreutils-9.1.tar.xz
 cd coreutils-9.1

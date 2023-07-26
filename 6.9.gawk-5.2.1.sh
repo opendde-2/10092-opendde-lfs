@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo ----------------------$0----------------------
 cd $LFS/sources
 tar -xf gawk-5.2.1.tar.xz
 cd gawk-5.2.1

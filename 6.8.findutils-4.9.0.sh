@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+echo ----------------------$0----------------------
 cd $LFS/sources
 tar -xf findutils-4.9.0.tar.xz
 cd findutils-4.9.0
